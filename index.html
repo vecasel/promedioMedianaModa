@@ -64,6 +64,34 @@
             </div>
         </section>
     </div>
+    <div class="modaContainer">
+        <section class="modaContainer__mo">
+            <div class="moda__title">
+                <p>Calcular Moda</p>
+            </div>
+            <div class="moda__description">
+                <p>Con este programa podrás calcular la moda, de una serie de números.</p>
+            </div>
+            <form class="moda__form">
+                <label for="mdlabel2__input" class="mdform__label2">
+                    Escribe la cantidad de números a los cuales sacarás la moda, una vez termines de enviarlos, da click en el botón calcular.
+                </label>
+                <span id="mdlabel2__span" class="mdform__span">Escribe el número 1</span>
+                <input type="number" name="mdlabel2__input" id="mdlabel2__input">
+                <button type="button" id="mdlabel2__button">Enviar</button>
+                <button type="button" id="mdbutton" onclick="calcularModa()">Calcular</button>
+            </form>
+            <div class="moda__result">
+                <p id="result__idModa"></p>
+            </div>
+        </section>
+        <section class="modaContainer__salaries">
+            <p class="mdsalaries__title">Lista Números</p>
+            <div class="mdsalaries__result">
+                <p id="mdresult__salaries"></p>
+            </div>
+        </section>
+    </div>
     <script src="index.js"></script>
 </body>
 </html>

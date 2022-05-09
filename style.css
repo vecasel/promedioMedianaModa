@@ -104,9 +104,6 @@ body{
 .salaries__result p{
     font-size: 4rem;
 }
-
-
-
 .mediaContainer{
     margin: 2rem 0;
     display: flex;
@@ -167,7 +164,7 @@ body{
     font-size: 1.5rem;
     text-align: center;
 }
-#button{
+#mbutton{
     margin-top: 1rem;
 }
 .media__result{
@@ -194,5 +191,94 @@ body{
     overflow: auto;
 }
 .msalaries__result p{
+    font-size: 4rem;
+}
+.modaContainer{
+    margin: 2rem 0;
+    display: flex;
+    width: 80%;
+    height: 40rem;
+    background-color: #541690;
+}
+.modaContainer__mo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: black solid 0.5rem;
+    background-color: #FF4949;
+    height: 100%;
+    width: 70%;
+}
+.modaContainer__salaries{
+    height: 100%;
+    width: 30%;
+    border: black solid 0.5rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.moda__title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: black solid 0.5rem;
+    border-radius: 1rem;
+    background-color: #FF8D29;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.moda__title p{
+    font-weight: bold;
+    font-size: 3rem;
+}
+.moda__description{
+    padding: 0 2rem;
+    height: max-content;
+}
+.moda__description p{
+    font-size: 1.5rem;
+}
+.moda__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mdform__span{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+.mdform__label2{
+    padding: 0 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+#mdbutton{
+    margin-top: 1rem;
+}
+.moda__result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: black solid 0.2rem;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 90%;
+    background-color:white;
+    height: 4rem;
+    margin-top: 1rem;
+}
+.mdsalaries__title{
+    font-size: 2.5rem;
+    padding: 2rem;
+    font-weight: bold;
+}
+.mdsalaries__result{
+    background-color: white;
+    height: max-content;
+    width: 90%;
+    overflow: auto;
+}
+.mdsalaries__result p{
     font-size: 4rem;
 }
