@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promedio Mediana y Moda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="mainContainer">
+        <section class="mainContainer__promedio">
+            <div class="promedio__title">
+                <p>Calcular Promedio</p>
+            </div>
+            <div class="promedio__description">
+                <p>Con este programa podrás calcular el promedio, o media de una serie de salarios.</p>
+            </div>
+            <form class="promedio__form">
+                <label for="label2__input" class="form__label2">
+                    Escribe la cantidad de salarios a los cuales sacarás el promedio, una vez termines de enviarlos, da click en el botón calcular.
+                </label>
+                <span id="label2__span" class="form__span">Escoge el salario número 1</span>
+                <input type="number" name="label2__input" id="label2__input">
+                <button type="button" id="label2__button">Enviar</button>
+                <button type="button" id="button" onclick="calcularPromedio()">Calcular</button>
+            </form>
+            <div class="promedio__result">
+                <p id="result__idPromedio"></p>
+            </div>
+        </section>
+        <section class="mainContainer__salaries">
+            <p class="salaries__title">Lista de Salarios</p>
+            <div class="salaries__result">
+                <p id="result__salaries"></p>
+            </div>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
