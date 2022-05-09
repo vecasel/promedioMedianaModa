@@ -8,19 +8,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main class="mainContainer">
-        <section class="mainContainer__promedio">
+    <div class="promedioContainer">
+        <section class="promedioContainer__promedio">
             <div class="promedio__title">
                 <p>Calcular Promedio</p>
             </div>
             <div class="promedio__description">
-                <p>Con este programa podrás calcular el promedio, o media de una serie de salarios.</p>
+                <p>Con este programa podrás calcular el promedio, o media de una serie de números.</p>
             </div>
             <form class="promedio__form">
                 <label for="label2__input" class="form__label2">
-                    Escribe la cantidad de salarios a los cuales sacarás el promedio, una vez termines de enviarlos, da click en el botón calcular.
+                    Escribe la cantidad de números a los cuales sacarás el promedio, una vez termines de enviarlos, da click en el botón calcular.
                 </label>
-                <span id="label2__span" class="form__span">Escoge el salario número 1</span>
+                <span id="label2__span" class="form__span">Escribe el número 1</span>
                 <input type="number" name="label2__input" id="label2__input">
                 <button type="button" id="label2__button">Enviar</button>
                 <button type="button" id="button" onclick="calcularPromedio()">Calcular</button>
@@ -29,13 +29,41 @@
                 <p id="result__idPromedio"></p>
             </div>
         </section>
-        <section class="mainContainer__salaries">
-            <p class="salaries__title">Lista de Salarios</p>
+        <section class="promedioContainer__salaries">
+            <p class="salaries__title">Lista Números</p>
             <div class="salaries__result">
                 <p id="result__salaries"></p>
             </div>
         </section>
-    </main>
+    </div>
+    <div class="mediaContainer">
+        <section class="mediaContainer__media">
+            <div class="media__title">
+                <p>Calcular Mediana</p>
+            </div>
+            <div class="media__description">
+                <p>Con este programa podrás calcular la mediana, de una serie de números.</p>
+            </div>
+            <form class="media__form">
+                <label for="mlabel2__input" class="mform__label2">
+                    Escribe la cantidad de números a los cuales sacarás la mediana, una vez termines de enviarlos, da click en el botón calcular.
+                </label>
+                <span id="mlabel2__span" class="mform__span">Escribe el número 1</span>
+                <input type="number" name="mlabel2__input" id="mlabel2__input">
+                <button type="button" id="mlabel2__button">Enviar</button>
+                <button type="button" id="mbutton" onclick="calcularMediana()">Calcular</button>
+            </form>
+            <div class="media__result">
+                <p id="result__idMedia"></p>
+            </div>
+        </section>
+        <section class="mediaContainer__salaries">
+            <p class="msalaries__title">Lista Números</p>
+            <div class="msalaries__result">
+                <p id="mresult__salaries"></p>
+            </div>
+        </section>
+    </div>
     <script src="index.js"></script>
 </body>
 </html>
